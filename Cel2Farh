@@ -1,0 +1,10 @@
+C=float(input("Enter Celsius"))
+
+
+def conv_temp(deg):
+    return(float(1.8*deg+32))
+
+
+
+temp=conv_temp(C)
+print(temp)
